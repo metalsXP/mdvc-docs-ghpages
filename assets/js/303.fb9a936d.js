@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkubc_services=self.webpackChunkubc_services||[]).push([[303],{7303:(e,s,c)=>{c.d(s,{createInfoServices:()=>r.v});var r=c(8525);c(3579)}}]);
