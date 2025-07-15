@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.8.1">
 <title data-rh="true">QPPD | mdVC</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://mdvc.services/connectors/qppd"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="keywords" content="SAP, VCH, VCHA, aVC, metalsXP"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="QPPD | mdVC"><meta data-rh="true" name="description" content="QPPD linkage, master data, and synchronization"><meta data-rh="true" property="og:description" content="QPPD linkage, master data, and synchronization"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://mdvc.services/connectors/qppd"><link data-rh="true" rel="alternate" href="https://mdvc.services/connectors/qppd" hreflang="en"><link data-rh="true" rel="alternate" href="https://mdvc.services/connectors/qppd" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Connectors","item":"https://mdvc.services/connectors/"},{"@type":"ListItem","position":2,"name":"QPPD","item":"https://mdvc.services/connectors/qppd/"}]}</script><link rel="stylesheet" href="/assets/css/styles.9dbf0614.css">
-<script src="/assets/js/runtime~main.a0262001.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.7b8f1b8d.js" defer="defer"></script>
 <script src="/assets/js/main.4c14a924.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -171,6 +171,7 @@
 </ul>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="ui-extension">UI Extension<a href="#ui-extension" class="hash-link" aria-label="Direct link to UI Extension" title="Direct link to UI Extension">​</a></h3>
 <p>AVC provides a powerful UI extension approach, enabling, for example, the display of linked QPPD objects as a dedicated tab &quot;group&quot; in AVC. For more information on AVC UI extensions, see <a href="https://help.sap.com/docs/SAP_S4HANA_CLOUD/f369b2eff700401494ba6e7c9a573288/931576a8470e479ca11ca0b18d655092.html?locale=en-US" target="_blank" rel="noopener noreferrer">SAP Help</a> and <a href="https://github.com/SAP-samples/s4hana-avc-ui-extension-template" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+<p><img decoding="async" loading="lazy" alt="UI Extension" src="/assets/images/image_029-c15c7e31ab61b903ab404642a847e664.png" width="1903" height="574" class="img_ev3q"></p>
 <p>In brief, to display information of the linked QPPD object, the following configuration/development steps are required:</p>
 <ul>
 <li>Develop your UI extension app as linked in the <a href="https://github.com/SAP-samples/s4hana-avc-ui-extension-template" target="_blank" rel="noopener noreferrer">GitHub Repository</a>.</li>
@@ -198,7 +199,8 @@ Consider using <a href="https://industriousconsulting.github.io/qp-gro-docs-ghpa
 <p>Unfortunately, it is not supported from the AVC UI Extension side to embed external UI5 libraries, thus it is currently not possible to offer a library for helper functions such as:</p>
 <ul>
 <li>Jump to QPPD</li>
-<li>Display QPPD objects inline: UI and draft handling</li>
+<li>Display QPPD objects inline: UI and draft handling<br>
+<img decoding="async" loading="lazy" alt="Display QPPD object" src="/assets/images/image_030-967eb0401dc07851398e8c17911a2794.png" width="1888" height="858" class="img_ev3q"></li>
 <li>...</li>
 </ul>
 <p>Nevertheless, <strong>metals<sup>XP</sup></strong> has some content available &quot;pre-packaged&quot;. The current suggestion is to copy it as a &quot;quick start&quot; to your custom Extension project. This may change in the future if libraries become supported. Please reach out to the team of <strong>metals<sup>XP</sup></strong> for further details.</p>
